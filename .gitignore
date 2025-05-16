@@ -1,0 +1,89 @@
+## Archivos de compilación y temporales
+bin/
+obj/
+out/
+
+## Archivos de usuario y configuración local
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Archivos de log y temporales
+*.log
+*.tmp
+
+## Archivos de la herramienta de análisis
+*.vsp
+*.vspx
+*.vspscc
+
+## Archivos generados por Visual Studio
+.vs/
+.vscode/
+*.cache
+*.dbmdl
+
+## Archivos de configuración local de Rider o JetBrains
+.idea/
+*.sln.iml
+
+## Archivos de publicación y empaquetado
+publish/
+*.publishsettings
+
+## Archivos de test y resultados
+TestResults/
+*.coverage
+*.coveragexml
+
+## Archivos de configuración del sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Archivos del entorno .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.pidb
+*.pdb
+*.mdb
+
+## Archivos de dependencia NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+*.props
+*.targets
+*.symbols.nupkg
+.nuget/
+packages/
+*.PackageReference.xml
+
+## Secretos y configuraciones sensibles
+appsettings.Development.json
+secrets.json
+
+## Archivos de respaldo
+*.bak
+*.old
+*.orig
+
+## Archivos de Docker (si los usas)
+docker-compose.override.yml
+.docker/
+
+## Archivos de cobertura de código
+coverage/
+coverage*.json
+lcov.info
+
+## Archivos generados por herramientas como Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## Archivos de herramientas de análisis como SonarQube
+.sonar/
