@@ -234,7 +234,13 @@ dotnet run [--project proyecto]
 ```bash
 $ dotnet run --project MiProyecto
 ```
+### `dotnet new console`
+**Exlicacion**: Crea un nuevo proyecto (hacerlo dentro de la carpeta ejemplos)
 
+**Sintaxis**
+```bash
+$ dotnet new console -o e3-aprobado-o-reprobado
+```
 # Conceptos básicos de programación
 
 ## Definición de variable
