@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿d// See https://aka.ms/new-console-template for more information
 const double PI = 3.14159265358979323846;
 
 // if (Si (condicion) entonces ... caso contrario (else) ... fin si
@@ -50,10 +50,26 @@ switch (dia)
 
 // 3. Realizar un programa que reciba una edad y muestre si es mayor de edad o menor de edad
 
+int edad;
 
+if (edad >= 18)
+{
+    Console.WriteLine("La edad de " + edad + " años es Mayor de edad");
+}
+else
+{
+    Console.WriteLine("La edad de " + edad + " años es Menor de edad");
+}
 // 4. Realizar un programa que reciba un numero y muestre si es par o impar
-
-
+int 
+if (numero % 2 == 0)
+{
+    Console.WriteLine("El número " + numero + " es PAR.");
+}
+else
+{
+    Console.WriteLine("El número " + numero + " es IMPAR.");
+}
 // 5. Realizar un programa que reciba un numero y muestre si es positivo o negativo
 
 
@@ -61,7 +77,6 @@ switch (dia)
 
 
 
-int a;
 int b;
 int suma;
 
