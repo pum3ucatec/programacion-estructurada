@@ -1,9 +1,17 @@
 ﻿Console.WriteLine("Ingrese una nota entre (0 - 100): ");
 string leerPorPantalla = Console.ReadLine();
 
-int nota = int.Parse(leerPorPantalla);
+
+
+bool esNumero = int.TryParse(leerPorPantalla, out int nota);
 
 string resultado;
+
+if (!esNumero)
+{
+    Console.WriteLine("No es una nota de valor entero");
+    return;
+}
 
 switch (nota)
 {
